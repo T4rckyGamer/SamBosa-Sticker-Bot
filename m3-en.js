@@ -69,16 +69,16 @@ async function bot(m3, message) {
   if ((txt == "sticker") || (isMedia && mimetype == 'image/jpeg')) {
   
 // Put here the author's name that appears at the bottom of the sticker , for pictures they should not contain decorations or emojis, put the name in English only
-    const a = "Sticker"   
+    const a = "Football"   
     
 // Put here the pack name that appears at the bottom of the sticker , for pictures they should not contain decorations or emojis, put the name in English only      
-           const b = "SamBosa bot"   
+           const b = "Football"   
       
 // Put here the author's name that appears below the sticker, for the video or gif it can contain motifs or emojis
-    const author = "Sticker"  
+    const author = "「 αвυ τυяĸɪ 」🇸🇦"  
     
 // Put here the pack name that appears below the sticker, for the video or gif it can contain motifs or emojis
-    const pack = "🤖 Bot SamBosa 🤖"  
+    const pack = "「 αвυ τυяĸɪ 」🇸🇦"  
     
     await createExif(a,b)
     await sleep(3000)
@@ -322,7 +322,7 @@ const convertSticker = function(shape, author, pack, mediaData, type) {
       "pack": pack,
       "author": author,
       "shape": shape,
-      "api_key": "JDJiJDEwJEM0VFN0WC5qbDIxYm9TMC8va2EvSGV4V2dUMGRPYU93YlNwZU1acFdLZmNHcEwzVGVjRWou",
+      "api_key": "JDJiJDEwJFJSN0Z0Ri4zLjhIZkVBbFFocmFWRHU1aFE1T1VYNUtudUlnWlVlWW1Sei54WFFINDlpdFlp",
 // api_key || https://stickerman.org
     };
     var url = "https://stickerman.org/api/convert";
